@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | FISHSIX AR</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
     <script src="Build/FIshsixBuilds.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/FIshsixBuilds.data.br",
-        frameworkUrl: "Build/FIshsixBuilds.framework.js.br",
-        codeUrl: "Build/FIshsixBuilds.wasm.br",
+        dataUrl: "Build/FIshsixBuilds.data.gz",
+        frameworkUrl: "Build/FIshsixBuilds.framework.js.gz",
+        codeUrl: "Build/FIshsixBuilds.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "FISHSIX AR",
